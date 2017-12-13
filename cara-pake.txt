@@ -1,0 +1,6 @@
+//curl
+curl testjwtclientid:XY7kmzoNzl1100@localhost:8080/oauth/token -d grant_type=password -d username=john.doe -d password=jwtpass
+
+//test
+curl http://localhost:8080/springjwt/cities -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidGVzdGp3dHJlc291cmNlaWQiXSwidXNlcl9uYW1lIjoiam9obi5kb2UiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiZXhwIjoxNTEzMTUwNjQwLCJhdXRob3JpdGllcyI6WyJBRE1JTl9VU0VSIl0sImp0aSI6IjFkNGExNjA3LTk3MzQtNDkxOS04NmVmLWU0MGI5YmJlODU2YSIsImNsaWVudF9pZCI6InRlc3Rqd3RjbGllbnRpZCJ9.TUkLC1vTtFGfh_patb_VmWh-fCYf__IqRLTV6WAhsyI"
+
